@@ -1,0 +1,55 @@
+using UnityEditor;
+
+using UnityEngine;
+
+[CustomEditor(typeof(LevelDesigner))]
+public class LevelDesignerEditor : Editor
+{
+	public override void OnInspectorGUI()
+	{
+		// LevelDesigner sýnýfýný hedef al
+		LevelDesigner designer = (LevelDesigner)target;
+
+		// Renk seçimi
+		EditorGUILayout.Space();
+		EditorGUILayout.LabelField("Color Selection", EditorStyles.boldLabel);
+
+		GUILayout.BeginHorizontal();
+		if (GUILayout.Button("Blue")) designer.selectedColor = LevelDesigner.FrogColors.Blue;
+		if (GUILayout.Button("Yellow")) designer.selectedColor = LevelDesigner.FrogColors.Yellow;
+		if (GUILayout.Button("Green")) designer.selectedColor = LevelDesigner.FrogColors.Green;
+		if (GUILayout.Button("Purple")) designer.selectedColor = LevelDesigner.FrogColors.Purple;
+		if (GUILayout.Button("Red")) designer.selectedColor = LevelDesigner.FrogColors.Red;
+		GUILayout.EndHorizontal();
+
+		EditorGUILayout.LabelField("Selected Color: " + designer.selectedColor.ToString());
+
+		// Nesne seçimi
+		EditorGUILayout.Space();
+		EditorGUILayout.LabelField("Item Selection", EditorStyles.boldLabel);
+
+		GUILayout.BeginHorizontal();
+		if (GUILayout.Button("Frog")) designer.selectedItem = LevelDesigner.Items.Frog;
+		if (GUILayout.Button("Arrow")) designer.selectedItem = LevelDesigner.Items.Arrow;
+		if (GUILayout.Button("Grape")) designer.selectedItem = LevelDesigner.Items.Grape;
+		GUILayout.EndHorizontal();
+
+		EditorGUILayout.LabelField("Selected Item: " + designer.selectedItem.ToString());
+
+		// Yön seçimi
+		EditorGUILayout.Space();
+		EditorGUILayout.LabelField("Direction Selection", EditorStyles.boldLabel);
+
+		GUILayout.BeginHorizontal();
+		if (GUILayout.Button("Up")) designer.selectedDirection = LevelDesigner.Directions.Up;
+		if (GUILayout.Button("Down")) designer.selectedDirection = LevelDesigner.Directions.Down;
+		if (GUILayout.Button("Left")) designer.selectedDirection = LevelDesigner.Directions.Left;
+		if (GUILayout.Button("Right")) designer.selectedDirection = LevelDesigner.Directions.Right;
+		GUILayout.EndHorizontal();
+
+		EditorGUILayout.LabelField("Selected Direction: " + designer.selectedDirection.ToString());
+
+		// Deðiþiklikleri kaydet
+		EditorUtility.SetDirty(target);
+	}
+}

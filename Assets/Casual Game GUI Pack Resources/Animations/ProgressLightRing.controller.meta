@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8e7e8a0b5c169d64392615c5e9003166
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196572
+  packageName: Casual Game GUI Pack_Vertical Mobile
+  packageVersion: 1.0
+  assetPath: Assets/Casual Game GUI Pack Resources/Animations/ProgressLightRing.controller
+  uploadId: 440877

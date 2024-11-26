@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 542a313c75b1e20449299fe5a1a374f2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Arial Rounded MT Bold
+  fontNames:
+  - Arial Rounded MT Bold
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196572
+  packageName: Casual Game GUI Pack_Vertical Mobile
+  packageVersion: 1.0
+  assetPath: Assets/Casual Game GUI Pack Resources/Fonts/arialrounded.TTF
+  uploadId: 440877

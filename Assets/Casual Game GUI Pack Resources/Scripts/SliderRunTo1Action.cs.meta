@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7fd734a74ae7039498351cc76a804ee4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196572
+  packageName: Casual Game GUI Pack_Vertical Mobile
+  packageVersion: 1.0
+  assetPath: Assets/Casual Game GUI Pack Resources/Scripts/SliderRunTo1Action.cs
+  uploadId: 440877

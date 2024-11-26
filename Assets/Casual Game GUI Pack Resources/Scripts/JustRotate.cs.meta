@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a5d6cfe53719c3a489caa1c47e5d0345
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196572
+  packageName: Casual Game GUI Pack_Vertical Mobile
+  packageVersion: 1.0
+  assetPath: Assets/Casual Game GUI Pack Resources/Scripts/JustRotate.cs
+  uploadId: 440877
